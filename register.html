@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+	<section class="container">
+		<h1>Armada</h1>
+		<h2>Register</h2>
+		<form method="post" action="php/register.php">
+			<div class="nom">
+				<input type="text" name="prenom" id="prenom" placeholder="First Name" maxlength="15" class="name" />
+				<input type="text" name="nom" id="nom" placeholder="Last Name" maxlength="20" />
+			</div>
+			<div class="nom_utilisateur">
+				<input type="text" name="nom_utilisateur" id="nom_utilisateur" placeholder="User Name" maxlength="15"  />
+			</div>
+			<div class="email">
+				<input type="email" name="email" id="email" placeholder="Email address" maxlength="30"/>
+			</div>
+			<div class="mot_de_passe">
+				<input type="password" name="mot_de_passe" id="mot_de_passe"placeholder="Password" maxlength="10"/>
+				<input type="password" name="confirmation_mot_de_passe" id="confirmation_mot_de_passe" placeholder="Confirm Your Password" maxlength="10"/>
+			</div>
+			<p class="phrase"><a href="index.html">Have already an account ?</a></p>
+			<div class="button">
+				<input type="submit" name="suivant" id="suivant" value="Next" id="next"/>
+			</div>
+		</form>		
+	</section>
+	<aside>
+		<img src="img/Armada-Boat.jpg" id="boatsPicture" alt="boat image"/>
+		<img src="img/Sunset_Armada.PNG" id="sunsetBoat" alt="sunset boat"/>
+	</aside>
+</body>
+</html>

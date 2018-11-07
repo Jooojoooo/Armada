@@ -1,0 +1,11 @@
+@media all and (max-width: 1024px)
+{
+	h1{
+		font-size: 4em;
+	}
+	#container{
+		position:absolute;
+		bottom: 25%;
+		right:25%;
+	}
+}
