@@ -1,0 +1,94 @@
+/*font family*/
+@font-family{
+	font-family: 'Tasselxp';
+	src: url('font/TASSELXP.ttf'),format('truetype');
+	font-family: 'Burlington';
+	src: url('font/SF-Burlington-Script/SF_Burlington_Script_Bold_Italic.ttf'),format('truetype');
+}
+/*  the background photo */
+body{
+	background: url("../img/Accueil.jpg") fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: 'Burlington','Tasselxp', Arial, serif;
+	font-size: 1em;
+}
+/*the title of page*/
+h1{
+	font-size: 5em;
+	padding-left: 1em;
+	color: white;
+}
+
+/*the welcome box */
+section{
+	width: 40%;
+	height: 200px;
+	background-color: #E3E3E3;
+	text-align: center;
+	border:1px black solid;
+	border-radius: 10px;
+	box-shadow: 2px 2px 1px black;
+	padding-bottom: 10px;
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+}
+/* the identifiant case*/
+.identifiant{
+	height: 30px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+}
+/* the password case */
+.password{
+	height: 30px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+}
+/* login button */
+#login{
+	float: right;
+	width: 100px;
+	height: 30px;
+	background-color: #2376E5;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	color: white;
+	font-weight: bold;
+}
+/* register button */
+#register{
+	float: left;
+	width: 100px;
+	height: 30px;
+	background-color: #2376E5;
+	margin-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+/* when put the mouse on the login button*/
+#login:hover{
+	background-color: black;
+	color: white;
+}
+/* when put the mouse on the register button */
+#register:hover{
+	background-color: black;
+	color: white;
+}
+/* the text below cases */
+p{
+	margin-top: 50px;
+}
+
+
+
+
+
