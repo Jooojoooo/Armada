@@ -1,0 +1,47 @@
+header{
+	width: 100%;
+	height: 150px;
+
+}
+#head_photo{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+}
+.item{
+	width: 100%;
+	height: 300px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	background-color: #F7F7F7;
+}
+.boat{
+	display:block;
+	width: 100%;
+	height: 150px;
+}
+.name_boat{
+	background-color: #A8A8A8;
+	padding-top: 10px;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer{
+	margin-top: 100px;
+	text-align: center;
+}
+
+.item:hover .name_boat{
+	height:20%;
+	background-color: red;
+	text-align: center;
+}

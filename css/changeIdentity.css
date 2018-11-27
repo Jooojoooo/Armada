@@ -1,0 +1,126 @@
+header{
+	width: 100%;
+	background-color: #204B97;
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+}
+.menu{
+	height: 40px;
+	color: white;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.menu_option{
+	margin-left: 40px;
+	margin-top: 10px;
+	height: 120px;
+	display: none;
+}
+a{
+	color: #F04F4F;
+	text-decoration: none;
+	font-size: 10px;
+	text-align: center;
+	
+}
+header a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+}
+.iconDelete{
+	background-color: #F04F4F;
+	border-radius: 60px;
+	height: 20px;
+
+}
+.container{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+	grid-column-gap: 5%;
+	grid-row-gap: 10px;
+	margin-top: 10px;
+}
+.item{
+	width: 100%;
+	height: 400px;
+	background-color: #F7F7F7;
+	overflow: scroll;
+	overflow-x: hidden;
+	
+}
+.title{
+	background-color: #9F9F9F;
+	font-size: 2em;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer{
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+.button{
+	width: 150px;
+	height:40px;
+	border:1px black solid;
+	background-color: #2376E5;
+	color: white;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+}
+.restSpaceItem{
+	display: flex;
+	align-items: flex-end;
+	height: 40%;
+	width: 100%;
+}
+.deleteButton{
+	width: 75px;
+	height:30px;
+	border:1px black solid;
+	background-color: #EEA6AA;
+	color: black;
+	font-weight: bold;
+}
+.button:hover{
+	background-color: #15488C;
+}
+.deleteButton:hover{
+	background-color: #DE4D56;
+	color: white;
+}
+form{
+	max-height: 340px;
+}
+table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	max-height: 300px;
+
+}
+tr{
+	margin:0;
+	padding: 10px;
+	text-align: center;
+	font-size: 1em;
+	height: 30px;
+}
+tr:hover{
+	background-color: #E5E5E5;
+}
+td:active{
+	background-color: #E5E5E5;
+}
+header:hover .menu_option{
+	display:block;
+}
+
+

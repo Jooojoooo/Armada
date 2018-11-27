@@ -1,0 +1,24 @@
+ /* the text box to enter the personal information */
+body{
+	min-height: 100%;
+}
+.container {
+  max-width: 960px;
+}
+.lh-condensed { line-height: 1.25; }
+#boatsPicture{
+	max-width: 100%;
+}
+#sunsetBoat{
+	max-width: 100%;
+
+}
+/* for the little resolution*/
+@media screen and (max-width: 1000px){
+	#boatsPicture{
+	display: none;
+}
+	#sunsetBoat{
+	display: none;
+}
+}
